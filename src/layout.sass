@@ -3,13 +3,18 @@
 
 $font-stack: 'Lato', sans-serif
 $primary-color: #505962
+$salmon-color: #ec6f86
+
+@mixin blue-bg
+    background: url(assets/blue-bg-2.jpg) no-repeat
+    background-size: cover
 
 // globals 
 
 body
   font: 100% $font-stack
   color: $primary-color
-  overlow-x: hidden
+  overflow-x: hidden
 
 .video-background::before
   display: block 
@@ -40,6 +45,15 @@ body
 .row, .container-fluid 
     margin-left: 0px!important 
     margin-right: 0px!important 
+
+.salmon 
+    color: $salmon-color
+
+.accent-btn
+    background-color: $salmon-color
+    color: white
+    border-color: $salmon-color
+
 .video-wrap 
     clip: rect(0, auto, auto, 0) 
     position: absolute 
@@ -75,6 +89,12 @@ video
     background-size: cover 
     transition: 1s opacity 
 
+#instructors
+    @include blue-bg
+
+#newsletter
+    @include blue-bg
+
 #map
     width: 100%
     height: 100%
@@ -85,3 +105,4 @@ video
         width:50%
 
 
+      
