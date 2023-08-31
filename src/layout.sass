@@ -1,28 +1,9 @@
-// layout
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap')
-@import '@angular/material/prebuilt-themes/indigo-pink.css'
-
-$font-stack: 'Lato', sans-serif
-$primary-color: #505962
-$salmon-color: #ec6f86
-
-@mixin blue-bg
-    background: url(assets/blue-bg-2.jpg) no-repeat
-    background-size: cover
-
-// globals 
-
-body
-  font: 100% $font-stack
-  color: $primary-color
-  overflow-x: hidden
+// landing page
 
 .video-background::before
-  display: block 
-  content: '' 
-  height: 60px 
-
-// landing page
+    display: block 
+    content: '' 
+    height: 60px 
 
 .video-background 
     position:relative
@@ -90,7 +71,7 @@ video
     background-size: cover 
     transition: 1s opacity 
 
-#instructors
+#friends
     @include blue-bg
 
 #newsletter

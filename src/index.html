@@ -6,50 +6,13 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-    <div class="container">
-      <a href="#" class="navbar-brand">Front End Code Sample</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navmenu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a href="#learn" class="nav-link">What I Learned</a>
-          </li>
-          <li class="nav-item">
-            <a href="#questions" class="nav-link">Questions</a>
-          </li>
-          <li class="nav-item">
-            <a href="#friends" class="nav-link">Friends</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class="video-background">
-    <div class="video-wrap">
-      <div id="video">
-        <video id="bgvid" playsinline autoplay muted loop>
-          <source src="assets/ocean-loop.mp4" type="video/mp4">
-        </video>
-      </div>
-    </div>
-  </div>
-  <div class="caption text-center">
-    <h1>HELLO, WOWHEAD!</h1>
-    <h2>Thanks for viewing my code</h2>
-    <a class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#get-started">GET STARTED</a>
-  </div>
   <app-root></app-root>
+
    <!-- Footer -->
-   <footer class="p-5 bg-dark text-white text-center position-relative">
+  <footer class="p-5 bg-dark text-white text-center position-relative">
     <div class="container">
       <p class="lead">Copyright &copy; 2023 Dyan Janito</p>
       <a href="" class="position-absolute bottom-0 end-0 p-5">
@@ -60,61 +23,61 @@
   </footer>
 
      <!-- Modal -->
-     <div
-     class="modal fade"
-     id="get-started"
-     tabindex="-1"
-     aria-labelledby="startedLabel"
-     aria-hidden="true"
-   >
-     <div class="modal-dialog">
-       <div class="modal-content">
-         <div class="modal-header">
-           <h5 class="modal-title" id="startedLabel">A Little Disclaimer</h5>
-           <button
-             type="button"
-             class="btn-close"
-             data-bs-dismiss="modal"
-             aria-label="Close"
-           ></button>
-         </div>
-         <div class="modal-body">
-           <p class="lead">This is an example of a pop-up modal form using Bootstrap.</p>
-           <p>Sorry, I no longer have access to the code samples of my relevant past work in the gaming industry which included Disney and Marvel XP projects. So I decided to build this quick website with Bootstrap, Angular, and Sass to show some examples of front-end code.</p>
-           <form>
-             <div class="mb-3">
-               <label for="first-name" class="col-form-label">
-                 First Name:
-               </label>
-               <input type="text" class="form-control" id="first-name" />
-             </div>
-             <div class="mb-3">
-               <label for="last-name" class="col-form-label">Last Name:</label>
-               <input type="text" class="form-control" id="last-name" />
-             </div>
-             <div class="mb-3">
-               <label for="email" class="col-form-label">Email:</label>
-               <input type="email" class="form-control" id="email" />
-             </div>
-             <div class="mb-3">
-               <label for="phone" class="col-form-label">Phone:</label>
-               <input type="tel" class="form-control" id="phone" />
-             </div>
-           </form>
-         </div>
-         <div class="modal-footer">
-           <button
-             type="button"
-             class="btn btn-secondary"
-             data-bs-dismiss="modal"
-           >
-             Close
-           </button>
-           <button type="button" class="btn accent-btn">Submit</button>
-         </div>
-       </div>
-     </div>
-   </div>
+  <div
+    class="modal fade"
+    id="get-started"
+    tabindex="-1"
+    aria-labelledby="startedLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="startedLabel">A Little Disclaimer</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">This is an example of a pop-up modal form using Bootstrap.</p>
+          <p>Sorry, I no longer have access to the code samples of my relevant past work in the gaming industry which included Disney and Marvel XP projects. So I decided to build this quick website with Bootstrap, Angular, and Sass to show some examples of front-end code.</p>
+          <form>
+            <div class="mb-3">
+              <label for="first-name" class="col-form-label">
+                First Name:
+              </label>
+              <input type="text" class="form-control" id="first-name" />
+            </div>
+            <div class="mb-3">
+              <label for="last-name" class="col-form-label">Last Name:</label>
+              <input type="text" class="form-control" id="last-name" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="col-form-label">Email:</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="col-form-label">Phone:</label>
+              <input type="tel" class="form-control" id="phone" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+          <button type="button" class="btn accent-btn">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
   <script>
